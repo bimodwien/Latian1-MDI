@@ -13,9 +13,8 @@ console.log(reverse1)
 const array2 = [4,5,2]
 const reverse2 = []
 
-for (let i = array2.length - 1; i >= 0; i--) {
-    const value2 = array2[i]
-    reverse2.push(value2)
+for (let i = 0; i <= array2.length -1; i++) {
+    reverse2.unshift(array2[i])
 }
 
 console.log(reverse2)
