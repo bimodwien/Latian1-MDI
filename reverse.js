@@ -4,7 +4,6 @@ const reverse1 = []
 
 for (let i = array1.length - 1; i >=0; i--) {
     const value1 = array1[i]
-    // console.log(value1)
     reverse1.push(value1)    
 }
 
